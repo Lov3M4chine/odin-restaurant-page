@@ -1,1 +1,2 @@
-alert("webpack is now working");
+import './styles.css';
+
