@@ -1,4 +1,8 @@
 const path = require('path');
+const mode = process.env.NODE_ENV || 'development';
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+
+
 
 module.exports = {
   entry: './src/index.js',
@@ -6,6 +10,7 @@ module.exports = {
     filename: 'main.js',
     path: path.resolve(__dirname, 'dist'),
   },
+  mode: mode,
   module: {
    rules: [
     {
@@ -14,4 +19,9 @@ module.exports = {
     },
    ],
   },
+    plugins: [
+    new HtmlWebpackPlugin({
+      template: 'src/index.html'
+    })
+  ],
 };
