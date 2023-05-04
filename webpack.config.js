@@ -2,8 +2,6 @@ const path = require('path');
 const mode = process.env.NODE_ENV || 'development';
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
-
-
 module.exports = {
   entry: './src/index.js',
   output: {
@@ -12,16 +10,30 @@ module.exports = {
   },
   mode: mode,
   module: {
-   rules: [
-    {
-     test: /\.css$/i,
-     use: ['style-loader', 'css-loader', 'postcss-loader'],
-    },
-   ],
+    rules: [
+      {
+        test: /\.css$/i,
+        use: ['style-loader', 'css-loader', 'postcss-loader'],
+      },
+      {
+        test: /\.mp4$/,
+        use: [
+          {
+            loader: 'file-loader',
+            options: {
+              name: '[name].[ext]',
+              outputPath: 'video/',
+              publicPath: 'video/',
+            },
+          },
+        ],
+      },
+    ],
   },
-    plugins: [
+  plugins: [
     new HtmlWebpackPlugin({
       template: 'src/index.html'
     })
   ],
 };
+

@@ -7,7 +7,40 @@
     <title>Restaurant Page</title>
 </head>
 <body>
-    <div id="content" class="text-blue-400 bg-slate-900">Hello!</div>
+    <div id="content" class="h-full">
+        <div id="header" class="h-24 flex flex-col justify-center items-center bg-slate-800">
+            <p class="text-white text-3xl font-serif">Ristorante Italiano</p>
+            <div class="flex text-slate-300">
+                <div>Home</div>
+                <div>Menu</div>
+                <div>Contact</div>
+            </div>
+        </div>
+        <div id="home-content" class="flex flex-col">
+            <div class="relative">
+                <video class="w-full h-auto" preload="auto" autoplay="" playsinline="" muted="" loop="" src="/src/video/pexels-cottonbro-studio-6054010-4096x2160-25fps.mp4">
+                </video>
+                <div class="absolute inset-0 flex flex-col items-center justify-center">
+                    <p class="text-white font-bold mb-4 text-xl">THE COMFORT YOU CRAVE</p>
+                    <button class="bg-white text-slate-900 px-6 py-3 rounded-full">SEE MENU</button>
+                </div>
+            </div>
+            <div class="relative">
+                <img src="/src/imgs/pablo-merchan-montes-Orz90t6o0e4-unsplash.jpg" alt="">
+                <div class="absolute inset-0 flex flex-col items-center justify-center">
+                    <p class="text-white font-bold mb-4 text-xl">CELEBRATE MOM WITH OUR SPECIALS</p>
+                    <button class="bg-white text-slate-900 px-6 py-3 rounded-full">LEARN MORE</button>
+                </div>
+            </div>
+            <div class="relative">
+                <img src="/src/imgs/johnathan-macedo-4NQEvxW2_4w-unsplash.jpg" alt="">
+                <div class="absolute inset-0 flex flex-col items-center justify-center">
+                    <p class="text-white font-bold mb-4 text-xl">GET IN TOUCH WITH THE FLAVOUR OF ITALY</p>
+                    <button class="bg-white text-slate-900 px-6 py-3 rounded-full">CONTACT US</button>
+                </div>
+            </div>
+        </div>
+    </div>
     <script src="main.js"></script>
 </body>
 </html>
