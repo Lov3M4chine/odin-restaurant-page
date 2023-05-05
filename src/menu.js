@@ -29,7 +29,7 @@ function loadMenuPage () {
                 <div class="flex gap-3">
                     <p>soup</p>
                     <p>14</p>
-                </div>
+                </div>np
                 <p>potato, cheese, broth, chicken</p>
             </div>
             <div class="w-96 h-auto bg-white p-5 rounded-3xl max-w-fit max-sm:w-screen">
