@@ -20,5 +20,4 @@ export function addClickListeners () {
       });
 }
 
-// loadHomePage();
-loadMenuPage();
+loadHomePage();

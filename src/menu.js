@@ -13,7 +13,7 @@ function loadMenuPage () {
     </div>
 </div>
 <div class="flex flex-col justify-center items-center">
-    <div class="flex flex-col justify-center items-center bg-slate-800 w-fit rounded-full px-32 pb-24 pt-12">
+    <div class="flex flex-col justify-center items-center bg-slate-800 w-fit rounded-full px-32 pb-24 pt-12 max-sm:w-screen">
         <p class="text-white rounded py-2 px-6 text-3xl underline mb-10">il antipasto</p>
         <div class="flex justify-center items-center gap-8 flex-wrap">
             <div class="w-96 h-auto bg-white p-5 rounded-3xl max-w-fit max-sm:w-screen">
@@ -42,7 +42,7 @@ function loadMenuPage () {
             </div>
         </div>
     </div>
-    <div class="flex flex-col justify-center items-center bg-slate-800 w-fit rounded-full px-32 pb-24 pt-12">
+    <div class="flex flex-col justify-center items-center bg-slate-800 w-fit rounded-full px-32 pb-24 pt-12 max-sm:w-screen">
         <p class="text-white rounded py-2 px-6 text-3xl underline mb-10">il secondo</p>
         <div class="flex justify-center items-center gap-8 flex-wrap">
             <div class="w-96 h-auto bg-white p-5 rounded-3xl max-w-fit max-sm:w-screen">
@@ -71,7 +71,7 @@ function loadMenuPage () {
             </div>
         </div>
     </div>
-    <div class="flex flex-col justify-center items-center bg-slate-800 w-fit rounded-full px-32 pb-24 pt-12">
+    <div class="flex flex-col justify-center items-center bg-slate-800 w-fit rounded-full px-32 pb-24 pt-12 max-sm:w-screen">
         <p class="text-white rounded py-2 px-6 text-3xl underline mb-10">dolce</p>
         <div class="flex justify-center items-center gap-8 flex-wrap">
             <div class="w-96 h-auto bg-white p-5 rounded-3xl max-w-fit max-sm:w-screen">
