@@ -16,7 +16,7 @@ function loadMenuPage () {
     <div class="flex flex-col justify-center items-center bg-slate-800 w-fit rounded-full px-32 pb-24 pt-12">
         <p class="text-white rounded py-2 px-6 text-3xl underline mb-10">il antipasto</p>
         <div class="flex justify-center items-center gap-8 flex-wrap">
-            <div class="w-96 h-auto bg-white p-5 rounded-3xl max-w-fit">
+            <div class="w-96 h-auto bg-white p-5 rounded-3xl max-w-fit max-sm:w-screen">
                 <img src="/src/imgs/anna-pelzer-IGfIGP5ONV0-unsplash.jpg" alt="" class="rounded">
                 <div class="flex gap-3">
                     <p>salad</p>
@@ -24,7 +24,7 @@ function loadMenuPage () {
                 </div>
                 <p>arugula, spinach, chard, watercress</p>
             </div>
-            <div class="w-96 h-auto bg-white p-5 rounded-3xl max-w-fit">
+            <div class="w-96 h-auto bg-white p-5 rounded-3xl max-w-fit max-sm:w-screen">
                 <img src="/src/imgs/emy-XoByiBymX20-unsplash.jpg" alt="">
                 <div class="flex gap-3">
                     <p>soup</p>
@@ -32,7 +32,7 @@ function loadMenuPage () {
                 </div>
                 <p>potato, cheese, broth, chicken</p>
             </div>
-            <div class="w-96 h-auto bg-white p-5 rounded-3xl max-w-fit">
+            <div class="w-96 h-auto bg-white p-5 rounded-3xl max-w-fit max-sm:w-screen">
                 <img src="/src/imgs/davide-cantelli-jpkfc5_d-DI-unsplash.jpg" alt="">
                 <div class="flex gap-3">
                     <p>bread</p>
@@ -45,7 +45,7 @@ function loadMenuPage () {
     <div class="flex flex-col justify-center items-center bg-slate-800 w-fit rounded-full px-32 pb-24 pt-12">
         <p class="text-white rounded py-2 px-6 text-3xl underline mb-10">il secondo</p>
         <div class="flex justify-center items-center gap-8 flex-wrap">
-            <div class="w-96 h-auto bg-white p-5 rounded-3xl max-w-fit">
+            <div class="w-96 h-auto bg-white p-5 rounded-3xl max-w-fit max-sm:w-screen">
                 <img src="/src/imgs/alex-munsell-Yr4n8O_3UPc-unsplash.jpg" alt="">
                 <div class="flex gap-3">
                     <p>chicken</p>
@@ -53,7 +53,7 @@ function loadMenuPage () {
                 </div>
                 <p>yams, broccolini, sauce, deliciousness</p>
             </div>
-            <div class="w-96 h-auto bg-white p-5 rounded-3xl max-w-fit">
+            <div class="w-96 h-auto bg-white p-5 rounded-3xl max-w-fit max-sm:w-screen">
                 <img src="/src/imgs/ella-olsson-mmnKI8kMxpc-unsplash.jpg" alt="">
                 <div class="flex gap-3">
                     <p>salmon</p>
@@ -61,7 +61,7 @@ function loadMenuPage () {
                 </div>
                 <p>broccoli, quinoa, cilantro, lemon</p>
             </div>
-            <div class="w-96 h-auto bg-white p-5 rounded-3xl max-w-fit">
+            <div class="w-96 h-auto bg-white p-5 rounded-3xl max-w-fit max-sm:w-screen">
                 <img src="/src/imgs/olayinka-babalola-r01ZopTiEV8-unsplash.jpg" alt="">
                 <div class="flex gap-3">
                     <p>pasta</p>
@@ -74,7 +74,7 @@ function loadMenuPage () {
     <div class="flex flex-col justify-center items-center bg-slate-800 w-fit rounded-full px-32 pb-24 pt-12">
         <p class="text-white rounded py-2 px-6 text-3xl underline mb-10">dolce</p>
         <div class="flex justify-center items-center gap-8 flex-wrap">
-            <div class="w-96 h-auto bg-white p-5 rounded-3xl max-w-fit">
+            <div class="w-96 h-auto bg-white p-5 rounded-3xl max-w-fit max-sm:w-screen">
                 <img src="/src/imgs/thought-catalog-9aOswReDKPo-unsplash.jpg" alt="">
                 <div class="flex gap-3">
                     <p>avocado</p>
