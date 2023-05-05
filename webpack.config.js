@@ -28,6 +28,19 @@ module.exports = {
           },
         ],
       },
+      {
+        test: /\.(png|jpeg|jpg|gif|svg)$/i,
+        use: [
+          {
+            loader: 'file-loader',
+            options: {
+              name: '[name].[ext]',
+              outputPath: 'imgs/',
+              publicPath: 'imgs/',
+            },
+          },
+        ],
+      },
     ],
   },
   plugins: [

@@ -3,6 +3,11 @@ import { loadHomePage } from './home.js';
 import { loadMenuPage } from './menu.js';
 import { loadContactPage } from './contact.js';
 
+// Import all images at once
+const imagesContext = require.context('./imgs', false, /\.(png|jpe?g|gif|svg)$/);
+imagesContext.keys().forEach(imagesContext);
+
+
 
 export function addClickListeners () {
     const homeBtns = document.querySelectorAll(".home-button");
