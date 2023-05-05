@@ -2,4 +2,8 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
+@font-face {
+    font-family: 'Italiana';
+    src: url('/src/fonts/Italiana/Italiana-Regular.ttf');
+  }
 
