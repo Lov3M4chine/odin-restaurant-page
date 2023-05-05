@@ -1,5 +1,5 @@
 import homePageVideo from './video/pexels-cottonbro-studio-6054010-4096x2160-25fps.mp4';
-
+import { addClickListeners } from './index.js';
 
 function loadHomePage () { 
     const content = document.getElementById("content");
@@ -13,7 +13,7 @@ function loadHomePage () {
             </div>
         </div>
         </div>
-        <div id="home-content" class="flex flex-col">
+        <div class="flex flex-col">
         <div class="relative">
             <video class="w-full h-auto" preload="auto" autoplay playsinline muted loop src="${homePageVideo}"></video>
             <div class="absolute inset-0 flex flex-col items-center justify-center">
@@ -39,6 +39,9 @@ function loadHomePage () {
 
     content.innerHTML = "";
     content.innerHTML = homePageHTML;
+    content.className = ("h-fit w-full bg-cover bg-center font-serif");
+    content.style.backgroundImage = "url('/src/imgs/pexels-pixabay-326333.jpg')"
+    addClickListeners();
 }
 
 export { loadHomePage };
