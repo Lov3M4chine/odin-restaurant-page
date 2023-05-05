@@ -17,14 +17,14 @@ function loadContactPage () {
         <p class="text-white rounded py-2 px-6 text-3xl underline mb-10">locations</p>
         <div class="flex justify-center items-center gap-8 flex-wrap">
             <div class="w-96 h-auto bg-white p-5 rounded-3xl max-w-fit max-sm:w-screen">
-                <img src="/src/imgs/pexels-vojta-kovařík-3243090.jpg" alt="" class="rounded">
+                <img src="imgs/pexels-vojta-kovařík-3243090.jpg" alt="" class="rounded">
                 <div class="flex gap-3">
                     <p>Phone: (555) 555 5555</p>
                 </div>
                 <p>1234 N Sicily Way, Rome, Italy </p>
             </div>
             <div class="w-96 h-auto bg-white p-5 rounded-3xl max-w-fit max-sm:w-screen">
-                <img src="/src/imgs/pexels-dominika-roseclay-1252500.jpg" alt="" class="rounded">
+                <img src="imgs/pexels-dominika-roseclay-1252500.jpg" alt="" class="rounded">
                 <div class="flex gap-3">
                     <p>Phone: (444) 444 4444</p>
                 </div>

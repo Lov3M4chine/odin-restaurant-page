@@ -17,7 +17,7 @@ function loadMenuPage () {
         <p class="text-white rounded py-2 px-6 text-3xl underline mb-10">il antipasto</p>
         <div class="flex justify-center items-center gap-8 flex-wrap">
             <div class="w-96 h-auto bg-white p-5 rounded-3xl max-w-fit max-sm:w-screen">
-                <img src="/src/imgs/anna-pelzer-IGfIGP5ONV0-unsplash.jpg" alt="" class="rounded">
+                <img src="imgs/anna-pelzer-IGfIGP5ONV0-unsplash.jpg" alt="" class="rounded">
                 <div class="flex gap-3">
                     <p>salad</p>
                     <p>15</p>
@@ -25,7 +25,7 @@ function loadMenuPage () {
                 <p>arugula, spinach, chard, watercress</p>
             </div>
             <div class="w-96 h-auto bg-white p-5 rounded-3xl max-w-fit max-sm:w-screen">
-                <img src="/src/imgs/emy-XoByiBymX20-unsplash.jpg" alt="">
+                <img src="imgs/emy-XoByiBymX20-unsplash.jpg" alt="">
                 <div class="flex gap-3">
                     <p>soup</p>
                     <p>14</p>
@@ -33,7 +33,7 @@ function loadMenuPage () {
                 <p>potato, cheese, broth, chicken</p>
             </div>
             <div class="w-96 h-auto bg-white p-5 rounded-3xl max-w-fit max-sm:w-screen">
-                <img src="/src/imgs/davide-cantelli-jpkfc5_d-DI-unsplash.jpg" alt="">
+                <img src="imgs/davide-cantelli-jpkfc5_d-DI-unsplash.jpg" alt="">
                 <div class="flex gap-3">
                     <p>bread</p>
                     <p>12</p>
@@ -46,7 +46,7 @@ function loadMenuPage () {
         <p class="text-white rounded py-2 px-6 text-3xl underline mb-10">il secondo</p>
         <div class="flex justify-center items-center gap-8 flex-wrap">
             <div class="w-96 h-auto bg-white p-5 rounded-3xl max-w-fit max-sm:w-screen">
-                <img src="/src/imgs/alex-munsell-Yr4n8O_3UPc-unsplash.jpg" alt="">
+                <img src="imgs/alex-munsell-Yr4n8O_3UPc-unsplash.jpg" alt="">
                 <div class="flex gap-3">
                     <p>chicken</p>
                     <p>24</p>
@@ -54,7 +54,7 @@ function loadMenuPage () {
                 <p>yams, broccolini, sauce, deliciousness</p>
             </div>
             <div class="w-96 h-auto bg-white p-5 rounded-3xl max-w-fit max-sm:w-screen">
-                <img src="/src/imgs/ella-olsson-mmnKI8kMxpc-unsplash.jpg" alt="">
+                <img src="imgs/ella-olsson-mmnKI8kMxpc-unsplash.jpg" alt="">
                 <div class="flex gap-3">
                     <p>salmon</p>
                     <p>30</p>
@@ -62,7 +62,7 @@ function loadMenuPage () {
                 <p>broccoli, quinoa, cilantro, lemon</p>
             </div>
             <div class="w-96 h-auto bg-white p-5 rounded-3xl max-w-fit max-sm:w-screen">
-                <img src="/src/imgs/olayinka-babalola-r01ZopTiEV8-unsplash.jpg" alt="">
+                <img src="imgs/olayinka-babalola-r01ZopTiEV8-unsplash.jpg" alt="">
                 <div class="flex gap-3">
                     <p>pasta</p>
                     <p>26</p>
@@ -75,7 +75,7 @@ function loadMenuPage () {
         <p class="text-white rounded py-2 px-6 text-3xl underline mb-10">dolce</p>
         <div class="flex justify-center items-center gap-8 flex-wrap">
             <div class="w-96 h-auto bg-white p-5 rounded-3xl max-w-fit max-sm:w-screen">
-                <img src="/src/imgs/thought-catalog-9aOswReDKPo-unsplash.jpg" alt="">
+                <img src="imgs/thought-catalog-9aOswReDKPo-unsplash.jpg" alt="">
                 <div class="flex gap-3">
                     <p>avocado</p>
                     <p>42</p>
@@ -88,7 +88,7 @@ function loadMenuPage () {
     content.innerHTML = "";
     content.innerHTML = menuPageHTML;
     content.className = ("h-fit w-full bg-cover bg-center font-serif");
-    content.style.backgroundImage = "url('/src/imgs/pexels-pixabay-326333.jpg')"
+    content.style.backgroundImage = "url('imgs/pexels-pixabay-326333.jpg')"
     addClickListeners();
 }
 

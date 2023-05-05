@@ -22,14 +22,14 @@ function loadHomePage () {
             </div>
         </div>
         <div class="relative">
-            <img src="/src/imgs/pablo-merchan-montes-Orz90t6o0e4-unsplash.jpg" alt="">
+            <img src="imgs/pablo-merchan-montes-Orz90t6o0e4-unsplash.jpg" alt="">
             <div class="absolute inset-0 flex flex-col items-center justify-center">
                 <p class="text-white font-bold mb-4 text-xl text-center">CELEBRATE MOM WITH OUR SPECIALS</p>
                 <button class="bg-white text-slate-900 px-6 py-3 rounded-full hover:bg-amber-950 hover:text-white">LEARN MORE</button>
             </div>
         </div>
         <div class="relative">
-            <img src="/src/imgs/johnathan-macedo-4NQEvxW2_4w-unsplash.jpg" alt="">
+            <img src="imgs/johnathan-macedo-4NQEvxW2_4w-unsplash.jpg" alt="">
             <div class="absolute inset-0 flex flex-col items-center justify-center">
                 <p class="text-white font-bold mb-4 text-xl text-center">GET IN TOUCH WITH THE FLAVOUR OF ITALY</p>
                 <button class="contact-button bg-white text-slate-900 px-6 py-3 rounded-full hover:bg-amber-950 hover:text-white">CONTACT US</button>
@@ -40,7 +40,7 @@ function loadHomePage () {
     content.innerHTML = "";
     content.innerHTML = homePageHTML;
     content.className = ("h-screen w-full bg-cover bg-center font-serif");
-    content.style.backgroundImage = "url('/src/imgs/pexels-pixabay-326333.jpg')"
+    content.style.backgroundImage = "url('imgs/pexels-pixabay-326333.jpg')"
     addClickListeners();
 }
 
