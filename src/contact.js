@@ -36,7 +36,7 @@ function loadContactPage () {
 
     content.innerHTML = "";
     content.innerHTML = contactPageHTML;
-    content.className = ("h-full w-full bg-cover bg-center font-serif");
+    content.className = ("h-screen w-full bg-cover bg-center font-serif max-sm:h-full max-lg:h-full");
     content.style.backgroundImage = "url('/src/imgs/pexels-pixabay-326333.jpg')"
     addClickListeners();
 }
