@@ -14,7 +14,7 @@ function loadMenuPage () {
 </div>
 <div class="flex flex-col justify-center items-center">
     <div class="flex flex-col justify-center items-center bg-slate-800 w-fit rounded-full px-32 pb-24 pt-12 max-sm:w-screen">
-        <p class="text-white rounded py-2 px-6 text-3xl underline mb-10">il antipasto</p>
+        <p class="text-white rounded py-2 px-6 text-3xl underline mb-10 whitespace-nowrap">il antipasto</p>
         <div class="flex justify-center items-center gap-8 flex-wrap">
             <div class="w-96 h-auto bg-white p-5 rounded-3xl max-w-fit max-sm:w-screen">
                 <img src="imgs/anna-pelzer-IGfIGP5ONV0-unsplash.jpg" alt="" class="rounded">
@@ -43,7 +43,7 @@ function loadMenuPage () {
         </div>
     </div>
     <div class="flex flex-col justify-center items-center bg-slate-800 w-fit rounded-full px-32 pb-24 pt-12 max-sm:w-screen">
-        <p class="text-white rounded py-2 px-6 text-3xl underline mb-10">il secondo</p>
+        <p class="text-white rounded py-2 px-6 text-3xl underline mb-10 whitespace-nowrap">il secondo</p>
         <div class="flex justify-center items-center gap-8 flex-wrap">
             <div class="w-96 h-auto bg-white p-5 rounded-3xl max-w-fit max-sm:w-screen">
                 <img src="imgs/alex-munsell-Yr4n8O_3UPc-unsplash.jpg" alt="">
@@ -72,7 +72,7 @@ function loadMenuPage () {
         </div>
     </div>
     <div class="flex flex-col justify-center items-center bg-slate-800 w-fit rounded-full px-32 pb-24 pt-12 max-sm:w-screen">
-        <p class="text-white rounded py-2 px-6 text-3xl underline mb-10">dolce</p>
+        <p class="text-white rounded py-2 px-6 text-3xl underline mb-10 whitespace-nowrap">dolce</p>
         <div class="flex justify-center items-center gap-8 flex-wrap">
             <div class="w-96 h-auto bg-white p-5 rounded-3xl max-w-fit max-sm:w-screen">
                 <img src="imgs/thought-catalog-9aOswReDKPo-unsplash.jpg" alt="">
